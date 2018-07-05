@@ -1,0 +1,79 @@
+buildscript {
+    ext {
+        vertx_version = '3.5.2'
+        groovy_version = '2.4.15'
+        vertx_pac4j_version = '3.1.0'
+        pac4j_version = '2.3.1'
+    }
+
+}
+
+plugins {
+    id 'java'
+    id 'groovy'
+    id 'application'
+    id "com.github.johnrengelman.shadow" version "2.0.4"
+}
+
+group 'com.aruistar.citylibrary'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = '1.8'
+
+
+mainClassName = 'com.aruistar.citylibrary.launcher.AruisLauncher'
+def mainVerticleName = 'com.aruistar.citylibrary.MainVerticle'
+
+compileGroovy {
+    groovyOptions.javaAnnotationProcessing = true
+}
+
+repositories {
+    mavenLocal()
+    jcenter()
+    maven {
+        url "http://maven.aliyun.com/nexus/content/groups/public"
+    }
+}
+
+
+sourceSets {
+    main {
+        java { srcDirs = [] }
+        groovy { srcDirs = ["src/main/java", "src/main/groovy"] }
+    }
+}
+
+
+shadowJar {
+    classifier = null
+    version = null
+
+    manifest {
+        attributes 'Main-Verticle': mainVerticleName
+    }
+    mergeServiceFiles {
+        include 'META-INF/services/io.vertx.core.spi.VerticleFactory'
+    }
+
+    mergeGroovyExtensionModules()
+}
+
+
+dependencies {
+
+    compile "org.codehaus.groovy:groovy:$groovy_version"
+    compile "org.codehaus.groovy:groovy-json:$groovy_version"
+
+    compile "io.vertx:vertx-core:$vertx_version"
+    compile "io.vertx:vertx-web:$vertx_version"
+    compile "io.vertx:vertx-web-client:$vertx_version"
+    compile("io.vertx:vertx-lang-groovy:$vertx_version") {
+        exclude group: "org.codehaus.groovy", module: "groovy-all"
+    }
+
+    compile 'com.diabolicallabs:vertx-cron:3.5.0'
+
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+    compile group: 'org.slf4j', name: 'jul-to-slf4j', version: '1.7.25'
+}
