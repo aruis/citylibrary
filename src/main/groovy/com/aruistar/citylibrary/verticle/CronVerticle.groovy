@@ -3,6 +3,7 @@ package com.aruistar.citylibrary.verticle
 import com.diabolicallabs.vertx.cron.CronEventSchedulerVertical
 import groovy.util.logging.Slf4j
 import io.vertx.core.AbstractVerticle
+import io.vertx.core.Future
 import io.vertx.core.json.JsonObject
 
 @Slf4j
@@ -10,7 +11,7 @@ class CronVerticle extends AbstractVerticle {
 
 
     @Override
-    void start() throws Exception {
+    void start(Future<Void> startFuture) throws Exception {
 
         log.info(config().toString())
 
@@ -30,6 +31,7 @@ class CronVerticle extends AbstractVerticle {
 
                 vertx.eventBus().send("cron.schedule", event, { handler ->
                     log.info(handler.succeeded().toString())
+                    startFuture.complete()
                 })
 
             }
