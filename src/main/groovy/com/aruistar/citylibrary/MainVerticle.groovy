@@ -15,7 +15,7 @@ class MainVerticle extends AbstractVerticle {
         def config = config()
         log.info("config is :" + config.toString())
 
-        def cron_expression = config.getString("cron", "0 15 10 ? * *")
+        def cron_expression = config.getString("cron", "0 48 9 ? * *")  //"0 48 9 ? * *" 每天上午9:48 just a example
 
 
         vertx.deployVerticle(CronVerticle.newInstance(), new DeploymentOptions().setConfig(new JsonObject([
