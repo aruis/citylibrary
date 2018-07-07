@@ -72,6 +72,8 @@ dependencies {
 
     compile 'com.diabolicallabs:vertx-cron:3.5.0'
 
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.11.3'
+
     compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
     compile group: 'org.slf4j', name: 'jul-to-slf4j', version: '1.7.25'
 }
