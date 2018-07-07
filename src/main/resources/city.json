@@ -1,0 +1,1408 @@
+{
+  "cities": [
+    {
+      "cityCode": "bj",
+      "cityName": "北京"
+    },
+    {
+      "cityCode": "sz",
+      "cityName": "深圳"
+    },
+    {
+      "cityCode": "sh",
+      "cityName": "上海"
+    },
+    {
+      "cityCode": "sanya",
+      "cityName": "三亚"
+    },
+    {
+      "cityCode": "xm",
+      "cityName": "厦门"
+    },
+    {
+      "cityCode": "lingshui",
+      "cityName": "陵水"
+    },
+    {
+      "cityCode": "gz",
+      "cityName": "广州"
+    },
+    {
+      "cityCode": "hz",
+      "cityName": "杭州"
+    },
+    {
+      "cityCode": "nj",
+      "cityName": "南京"
+    },
+    {
+      "cityCode": "fz",
+      "cityName": "福州"
+    },
+    {
+      "cityCode": "tj",
+      "cityName": "天津"
+    },
+    {
+      "cityCode": "zh",
+      "cityName": "珠海"
+    },
+    {
+      "cityCode": "qd",
+      "cityName": "青岛"
+    },
+    {
+      "cityCode": "wanning",
+      "cityName": "万宁"
+    },
+    {
+      "cityCode": "ls",
+      "cityName": "丽水"
+    },
+    {
+      "cityCode": "wz",
+      "cityName": "温州"
+    },
+    {
+      "cityCode": "jn",
+      "cityName": "济南"
+    },
+    {
+      "cityCode": "wh",
+      "cityName": "武汉"
+    },
+    {
+      "cityCode": "su",
+      "cityName": "苏州"
+    },
+    {
+      "cityCode": "nb",
+      "cityName": "宁波"
+    },
+    {
+      "cityCode": "baoting",
+      "cityName": "保亭"
+    },
+    {
+      "cityCode": "jh",
+      "cityName": "金华"
+    },
+    {
+      "cityCode": "cd",
+      "cityName": "成都"
+    },
+    {
+      "cityCode": "dg",
+      "cityName": "东莞"
+    },
+    {
+      "cityCode": "zs",
+      "cityName": "舟山"
+    },
+    {
+      "cityCode": "hk",
+      "cityName": "海口"
+    },
+    {
+      "cityCode": "sj",
+      "cityName": "石家庄"
+    },
+    {
+      "cityCode": "lf",
+      "cityName": "廊坊"
+    },
+    {
+      "cityCode": "hf",
+      "cityName": "合肥"
+    },
+    {
+      "cityCode": "tz",
+      "cityName": "台州"
+    },
+    {
+      "cityCode": "zz",
+      "cityName": "郑州"
+    },
+    {
+      "cityCode": "xa",
+      "cityName": "西安"
+    },
+    {
+      "cityCode": "dl",
+      "cityName": "大连"
+    },
+    {
+      "cityCode": "df",
+      "cityName": "东方"
+    },
+    {
+      "cityCode": "jx",
+      "cityName": "嘉兴"
+    },
+    {
+      "cityCode": "cq",
+      "cityName": "重庆"
+    },
+    {
+      "cityCode": "wx",
+      "cityName": "无锡"
+    },
+    {
+      "cityCode": "cz",
+      "cityName": "常州"
+    },
+    {
+      "cityCode": "ledong",
+      "cityName": "乐东"
+    },
+    {
+      "cityCode": "zhangzhou",
+      "cityName": "漳州"
+    },
+    {
+      "cityCode": "nt",
+      "cityName": "南通"
+    },
+    {
+      "cityCode": "quzhou",
+      "cityName": "衢州"
+    },
+    {
+      "cityCode": "fs",
+      "cityName": "佛山"
+    },
+    {
+      "cityCode": "yz",
+      "cityName": "扬州"
+    },
+    {
+      "cityCode": "pt",
+      "cityName": "莆田"
+    },
+    {
+      "cityCode": "cm",
+      "cityName": "澄迈"
+    },
+    {
+      "cityCode": "huzhou",
+      "cityName": "湖州"
+    },
+    {
+      "cityCode": "wc",
+      "cityName": "文昌"
+    },
+    {
+      "cityCode": "zhongshan",
+      "cityName": "中山"
+    },
+    {
+      "cityCode": "dali",
+      "cityName": "大理"
+    },
+    {
+      "cityCode": "changjiang",
+      "cityName": "昌江"
+    },
+    {
+      "cityCode": "km",
+      "cityName": "昆明"
+    },
+    {
+      "cityCode": "baisha",
+      "cityName": "白沙"
+    },
+    {
+      "cityCode": "ty",
+      "cityName": "太原"
+    },
+    {
+      "cityCode": "cs",
+      "cityName": "长沙"
+    },
+    {
+      "cityCode": "qz",
+      "cityName": "泉州"
+    },
+    {
+      "cityCode": "nc",
+      "cityName": "南昌"
+    },
+    {
+      "cityCode": "sx",
+      "cityName": "绍兴"
+    },
+    {
+      "cityCode": "qh",
+      "cityName": "琼海"
+    },
+    {
+      "cityCode": "nn",
+      "cityName": "南宁"
+    },
+    {
+      "cityCode": "longyan",
+      "cityName": "龙岩"
+    },
+    {
+      "cityCode": "bd",
+      "cityName": "保定"
+    },
+    {
+      "cityCode": "taizhoujs",
+      "cityName": "泰州"
+    },
+    {
+      "cityCode": "huizhou",
+      "cityName": "惠州"
+    },
+    {
+      "cityCode": "wuhu",
+      "cityName": "芜湖"
+    },
+    {
+      "cityCode": "lz",
+      "cityName": "兰州"
+    },
+    {
+      "cityCode": "lg",
+      "cityName": "临高"
+    },
+    {
+      "cityCode": "xsbn",
+      "cityName": "西双版纳"
+    },
+    {
+      "cityCode": "da",
+      "cityName": "定安"
+    },
+    {
+      "cityCode": "yt",
+      "cityName": "烟台"
+    },
+    {
+      "cityCode": "nd",
+      "cityName": "宁德"
+    },
+    {
+      "cityCode": "hb",
+      "cityName": "哈尔滨"
+    },
+    {
+      "cityCode": "gy",
+      "cityName": "贵阳"
+    },
+    {
+      "cityCode": "lasa",
+      "cityName": "拉萨"
+    },
+    {
+      "cityCode": "st",
+      "cityName": "汕头"
+    },
+    {
+      "cityCode": "zb",
+      "cityName": "淄博"
+    },
+    {
+      "cityCode": "hh",
+      "cityName": "呼和浩特"
+    },
+    {
+      "cityCode": "cangzhou",
+      "cityName": "沧州"
+    },
+    {
+      "cityCode": "sy",
+      "cityName": "沈阳"
+    },
+    {
+      "cityCode": "lyg",
+      "cityName": "连云港"
+    },
+    {
+      "cityCode": "yancheng",
+      "cityName": "盐城"
+    },
+    {
+      "cityCode": "huangshan",
+      "cityName": "黄山"
+    },
+    {
+      "cityCode": "ts",
+      "cityName": "唐山"
+    },
+    {
+      "cityCode": "danzhou",
+      "cityName": "儋州"
+    },
+    {
+      "cityCode": "chengde",
+      "cityName": "承德"
+    },
+    {
+      "cityCode": "xz",
+      "cityName": "徐州"
+    },
+    {
+      "cityCode": "zhenjiang",
+      "cityName": "镇江"
+    },
+    {
+      "cityCode": "yichang",
+      "cityName": "宜昌"
+    },
+    {
+      "cityCode": "liangshan",
+      "cityName": "凉山"
+    },
+    {
+      "cityCode": "zjk",
+      "cityName": "张家口"
+    },
+    {
+      "cityCode": "lc",
+      "cityName": "聊城"
+    },
+    {
+      "cityCode": "wzs",
+      "cityName": "五指山"
+    },
+    {
+      "cityCode": "qhd",
+      "cityName": "秦皇岛"
+    },
+    {
+      "cityCode": "weihai",
+      "cityName": "威海"
+    },
+    {
+      "cityCode": "zj",
+      "cityName": "湛江"
+    },
+    {
+      "cityCode": "hd",
+      "cityName": "邯郸"
+    },
+    {
+      "cityCode": "cc",
+      "cityName": "长春"
+    },
+    {
+      "cityCode": "ziyang",
+      "cityName": "资阳"
+    },
+    {
+      "cityCode": "wl",
+      "cityName": "乌鲁木齐"
+    },
+    {
+      "cityCode": "fy",
+      "cityName": "阜阳"
+    },
+    {
+      "cityCode": "ha",
+      "cityName": "淮安"
+    },
+    {
+      "cityCode": "ganzhou",
+      "cityName": "赣州"
+    },
+    {
+      "cityCode": "liuzhou",
+      "cityName": "柳州"
+    },
+    {
+      "cityCode": "xy",
+      "cityName": "襄阳"
+    },
+    {
+      "cityCode": "ly",
+      "cityName": "洛阳"
+    },
+    {
+      "cityCode": "cf",
+      "cityName": "赤峰"
+    },
+    {
+      "cityCode": "jm",
+      "cityName": "江门"
+    },
+    {
+      "cityCode": "hengshui",
+      "cityName": "衡水"
+    },
+    {
+      "cityCode": "tunchang",
+      "cityName": "屯昌"
+    },
+    {
+      "cityCode": "sm",
+      "cityName": "三明"
+    },
+    {
+      "cityCode": "rz",
+      "cityName": "日照"
+    },
+    {
+      "cityCode": "taian",
+      "cityName": "泰安"
+    },
+    {
+      "cityCode": "chizhou",
+      "cityName": "池州"
+    },
+    {
+      "cityCode": "my",
+      "cityName": "绵阳"
+    },
+    {
+      "cityCode": "ja",
+      "cityName": "吉安"
+    },
+    {
+      "cityCode": "sr",
+      "cityName": "上饶"
+    },
+    {
+      "cityCode": "bz",
+      "cityName": "滨州"
+    },
+    {
+      "cityCode": "zq",
+      "cityName": "肇庆"
+    },
+    {
+      "cityCode": "dy",
+      "cityName": "东营"
+    },
+    {
+      "cityCode": "nanchong",
+      "cityName": "南充"
+    },
+    {
+      "cityCode": "sn",
+      "cityName": "遂宁"
+    },
+    {
+      "cityCode": "pe",
+      "cityName": "普洱"
+    },
+    {
+      "cityCode": "mm",
+      "cityName": "茂名"
+    },
+    {
+      "cityCode": "tongling",
+      "cityName": "铜陵"
+    },
+    {
+      "cityCode": "sw",
+      "cityName": "汕尾"
+    },
+    {
+      "cityCode": "dz",
+      "cityName": "德州"
+    },
+    {
+      "cityCode": "tianshui",
+      "cityName": "天水"
+    },
+    {
+      "cityCode": "aq",
+      "cityName": "安庆"
+    },
+    {
+      "cityCode": "lj",
+      "cityName": "丽江"
+    },
+    {
+      "cityCode": "xt",
+      "cityName": "邢台"
+    },
+    {
+      "cityCode": "kf",
+      "cityName": "开封"
+    },
+    {
+      "cityCode": "np",
+      "cityName": "南平"
+    },
+    {
+      "cityCode": "bt",
+      "cityName": "包头"
+    },
+    {
+      "cityCode": "qy",
+      "cityName": "清远"
+    },
+    {
+      "cityCode": "bs",
+      "cityName": "保山"
+    },
+    {
+      "cityCode": "bengbu",
+      "cityName": "蚌埠"
+    },
+    {
+      "cityCode": "dazhou",
+      "cityName": "达州"
+    },
+    {
+      "cityCode": "xuancheng",
+      "cityName": "宣城"
+    },
+    {
+      "cityCode": "yichunjx",
+      "cityName": "宜春"
+    },
+    {
+      "cityCode": "yy",
+      "cityName": "岳阳"
+    },
+    {
+      "cityCode": "wf",
+      "cityName": "潍坊"
+    },
+    {
+      "cityCode": "ms",
+      "cityName": "眉山"
+    },
+    {
+      "cityCode": "mas",
+      "cityName": "马鞍山"
+    },
+    {
+      "cityCode": "jj",
+      "cityName": "九江"
+    },
+    {
+      "cityCode": "xianyang",
+      "cityName": "咸阳"
+    },
+    {
+      "cityCode": "fuzhou",
+      "cityName": "抚州"
+    },
+    {
+      "cityCode": "bh",
+      "cityName": "北海"
+    },
+    {
+      "cityCode": "yx",
+      "cityName": "玉溪"
+    },
+    {
+      "cityCode": "mz",
+      "cityName": "梅州"
+    },
+    {
+      "cityCode": "sq",
+      "cityName": "宿迁"
+    },
+    {
+      "cityCode": "xn",
+      "cityName": "西宁"
+    },
+    {
+      "cityCode": "yb",
+      "cityName": "宜宾"
+    },
+    {
+      "cityCode": "gl",
+      "cityName": "桂林"
+    },
+    {
+      "cityCode": "lw",
+      "cityName": "莱芜"
+    },
+    {
+      "cityCode": "la",
+      "cityName": "六安"
+    },
+    {
+      "cityCode": "jining",
+      "cityName": "济宁"
+    },
+    {
+      "cityCode": "ez",
+      "cityName": "鄂州"
+    },
+    {
+      "cityCode": "ganzi",
+      "cityName": "甘孜"
+    },
+    {
+      "cityCode": "qingyang",
+      "cityName": "庆阳"
+    },
+    {
+      "cityCode": "ln",
+      "cityName": "陇南"
+    },
+    {
+      "cityCode": "xinxiang",
+      "cityName": "新乡"
+    },
+    {
+      "cityCode": "guangyuan",
+      "cityName": "广元"
+    },
+    {
+      "cityCode": "changde",
+      "cityName": "常德"
+    },
+    {
+      "cityCode": "linyi",
+      "cityName": "临沂"
+    },
+    {
+      "cityCode": "zg",
+      "cityName": "自贡"
+    },
+    {
+      "cityCode": "jy",
+      "cityName": "揭阳"
+    },
+    {
+      "cityCode": "deyang",
+      "cityName": "德阳"
+    },
+    {
+      "cityCode": "heyuan",
+      "cityName": "河源"
+    },
+    {
+      "cityCode": "luzhou",
+      "cityName": "泸州"
+    },
+    {
+      "cityCode": "jdz",
+      "cityName": "景德镇"
+    },
+    {
+      "cityCode": "hs",
+      "cityName": "黄石"
+    },
+    {
+      "cityCode": "zjj",
+      "cityName": "张家界"
+    },
+    {
+      "cityCode": "jingzhou",
+      "cityName": "荆州"
+    },
+    {
+      "cityCode": "jinzhong",
+      "cityName": "晋中"
+    },
+    {
+      "cityCode": "qiongzhong",
+      "cityName": "琼中"
+    },
+    {
+      "cityCode": "py",
+      "cityName": "濮阳"
+    },
+    {
+      "cityCode": "jc",
+      "cityName": "晋城"
+    },
+    {
+      "cityCode": "chuzhou",
+      "cityName": "滁州"
+    },
+    {
+      "cityCode": "zaozhuang",
+      "cityName": "枣庄"
+    },
+    {
+      "cityCode": "neijiang",
+      "cityName": "内江"
+    },
+    {
+      "cityCode": "leshan",
+      "cityName": "乐山"
+    },
+    {
+      "cityCode": "suzhouah",
+      "cityName": "宿州"
+    },
+    {
+      "cityCode": "bozhou",
+      "cityName": "亳州"
+    },
+    {
+      "cityCode": "chaozhou",
+      "cityName": "潮州"
+    },
+    {
+      "cityCode": "yl",
+      "cityName": "榆林"
+    },
+    {
+      "cityCode": "zy",
+      "cityName": "遵义"
+    },
+    {
+      "cityCode": "es",
+      "cityName": "恩施"
+    },
+    {
+      "cityCode": "zhuzhou",
+      "cityName": "株洲"
+    },
+    {
+      "cityCode": "xc",
+      "cityName": "许昌"
+    },
+    {
+      "cityCode": "fcg",
+      "cityName": "防城港"
+    },
+    {
+      "cityCode": "xg",
+      "cityName": "孝感"
+    },
+    {
+      "cityCode": "linzhi",
+      "cityName": "林芝"
+    },
+    {
+      "cityCode": "changzhi",
+      "cityName": "长治"
+    },
+    {
+      "cityCode": "heze",
+      "cityName": "菏泽"
+    },
+    {
+      "cityCode": "xinyang",
+      "cityName": "信阳"
+    },
+    {
+      "cityCode": "hezhou",
+      "cityName": "贺州"
+    },
+    {
+      "cityCode": "hebi",
+      "cityName": "鹤壁"
+    },
+    {
+      "cityCode": "yj",
+      "cityName": "阳江"
+    },
+    {
+      "cityCode": "dd",
+      "cityName": "丹东"
+    },
+    {
+      "cityCode": "gg",
+      "cityName": "贵港"
+    },
+    {
+      "cityCode": "ga",
+      "cityName": "广安"
+    },
+    {
+      "cityCode": "ny",
+      "cityName": "南阳"
+    },
+    {
+      "cityCode": "hy",
+      "cityName": "衡阳"
+    },
+    {
+      "cityCode": "chenzhou",
+      "cityName": "郴州"
+    },
+    {
+      "cityCode": "ay",
+      "cityName": "安阳"
+    },
+    {
+      "cityCode": "zmd",
+      "cityName": "驻马店"
+    },
+    {
+      "cityCode": "huaibei",
+      "cityName": "淮北"
+    },
+    {
+      "cityCode": "jl",
+      "cityName": "吉林"
+    },
+    {
+      "cityCode": "yingtan",
+      "cityName": "鹰潭"
+    },
+    {
+      "cityCode": "hn",
+      "cityName": "淮南"
+    },
+    {
+      "cityCode": "sg",
+      "cityName": "韶关"
+    },
+    {
+      "cityCode": "ww",
+      "cityName": "武威"
+    },
+    {
+      "cityCode": "pl",
+      "cityName": "平凉"
+    },
+    {
+      "cityCode": "yc",
+      "cityName": "银川"
+    },
+    {
+      "cityCode": "eds",
+      "cityName": "鄂尔多斯"
+    },
+    {
+      "cityCode": "pzh",
+      "cityName": "攀枝花"
+    },
+    {
+      "cityCode": "yiyang",
+      "cityName": "益阳"
+    },
+    {
+      "cityCode": "suizhou",
+      "cityName": "随州"
+    },
+    {
+      "cityCode": "tl",
+      "cityName": "通辽"
+    },
+    {
+      "cityCode": "shangqiu",
+      "cityName": "商丘"
+    },
+    {
+      "cityCode": "lincang",
+      "cityName": "临沧"
+    },
+    {
+      "cityCode": "zt",
+      "cityName": "昭通"
+    },
+    {
+      "cityCode": "huaihua",
+      "cityName": "怀化"
+    },
+    {
+      "cityCode": "xiangtan",
+      "cityName": "湘潭"
+    },
+    {
+      "cityCode": "snj",
+      "cityName": "神农架"
+    },
+    {
+      "cityCode": "shiyan",
+      "cityName": "十堰"
+    },
+    {
+      "cityCode": "dt",
+      "cityName": "大同"
+    },
+    {
+      "cityCode": "dq",
+      "cityName": "大庆"
+    },
+    {
+      "cityCode": "yf",
+      "cityName": "云浮"
+    },
+    {
+      "cityCode": "mdj",
+      "cityName": "牡丹江"
+    },
+    {
+      "cityCode": "byne",
+      "cityName": "巴彦淖尔"
+    },
+    {
+      "cityCode": "anshun",
+      "cityName": "安顺"
+    },
+    {
+      "cityCode": "jiyuan",
+      "cityName": "济源"
+    },
+    {
+      "cityCode": "shz",
+      "cityName": "石河子"
+    },
+    {
+      "cityCode": "yaan",
+      "cityName": "雅安"
+    },
+    {
+      "cityCode": "yongzhou",
+      "cityName": "永州"
+    },
+    {
+      "cityCode": "hg",
+      "cityName": "黄冈"
+    },
+    {
+      "cityCode": "jz",
+      "cityName": "锦州"
+    },
+    {
+      "cityCode": "by",
+      "cityName": "白银"
+    },
+    {
+      "cityCode": "jiaozuo",
+      "cityName": "焦作"
+    },
+    {
+      "cityCode": "lh",
+      "cityName": "漯河"
+    },
+    {
+      "cityCode": "hld",
+      "cityName": "葫芦岛"
+    },
+    {
+      "cityCode": "zk",
+      "cityName": "周口"
+    },
+    {
+      "cityCode": "ya",
+      "cityName": "延安"
+    },
+    {
+      "cityCode": "baoji",
+      "cityName": "宝鸡"
+    },
+    {
+      "cityCode": "yulin",
+      "cityName": "玉林"
+    },
+    {
+      "cityCode": "jingmen",
+      "cityName": "荆门"
+    },
+    {
+      "cityCode": "xiantao",
+      "cityName": "仙桃"
+    },
+    {
+      "cityCode": "ak",
+      "cityName": "安康"
+    },
+    {
+      "cityCode": "dx",
+      "cityName": "定西"
+    },
+    {
+      "cityCode": "yanbian",
+      "cityName": "延边"
+    },
+    {
+      "cityCode": "qq",
+      "cityName": "齐齐哈尔"
+    },
+    {
+      "cityCode": "pds",
+      "cityName": "平顶山"
+    },
+    {
+      "cityCode": "bazhong",
+      "cityName": "巴中"
+    },
+    {
+      "cityCode": "jq",
+      "cityName": "酒泉"
+    },
+    {
+      "cityCode": "linfen",
+      "cityName": "临汾"
+    },
+    {
+      "cityCode": "px",
+      "cityName": "萍乡"
+    },
+    {
+      "cityCode": "qdn",
+      "cityName": "黔东南"
+    },
+    {
+      "cityCode": "cj",
+      "cityName": "昌吉"
+    },
+    {
+      "cityCode": "th",
+      "cityName": "通化"
+    },
+    {
+      "cityCode": "xx",
+      "cityName": "湘西"
+    },
+    {
+      "cityCode": "cx",
+      "cityName": "楚雄"
+    },
+    {
+      "cityCode": "shaoyang",
+      "cityName": "邵阳"
+    },
+    {
+      "cityCode": "hanzhong",
+      "cityName": "汉中"
+    },
+    {
+      "cityCode": "yili",
+      "cityName": "伊犁"
+    },
+    {
+      "cityCode": "qxn",
+      "cityName": "黔西南"
+    },
+    {
+      "cityCode": "tr",
+      "cityName": "铜仁"
+    },
+    {
+      "cityCode": "hc",
+      "cityName": "河池"
+    },
+    {
+      "cityCode": "wuzhou",
+      "cityName": "梧州"
+    },
+    {
+      "cityCode": "xinyu",
+      "cityName": "新余"
+    },
+    {
+      "cityCode": "ws",
+      "cityName": "文山"
+    },
+    {
+      "cityCode": "xingan",
+      "cityName": "兴安"
+    },
+    {
+      "cityCode": "xianning",
+      "cityName": "咸宁"
+    },
+    {
+      "cityCode": "xinzhou",
+      "cityName": "忻州"
+    },
+    {
+      "cityCode": "bx",
+      "cityName": "本溪"
+    },
+    {
+      "cityCode": "liaoyang",
+      "cityName": "辽阳"
+    },
+    {
+      "cityCode": "yk",
+      "cityName": "营口"
+    },
+    {
+      "cityCode": "ld",
+      "cityName": "娄底"
+    },
+    {
+      "cityCode": "lps",
+      "cityName": "六盘水"
+    },
+    {
+      "cityCode": "fushun",
+      "cityName": "抚顺"
+    },
+    {
+      "cityCode": "qj",
+      "cityName": "曲靖"
+    },
+    {
+      "cityCode": "bc",
+      "cityName": "白城"
+    },
+    {
+      "cityCode": "songyuan",
+      "cityName": "松原"
+    },
+    {
+      "cityCode": "wn",
+      "cityName": "渭南"
+    },
+    {
+      "cityCode": "bijie",
+      "cityName": "毕节"
+    },
+    {
+      "cityCode": "as",
+      "cityName": "鞍山"
+    },
+    {
+      "cityCode": "guyuan",
+      "cityName": "固原"
+    },
+    {
+      "cityCode": "sp",
+      "cityName": "四平"
+    },
+    {
+      "cityCode": "qianjiang",
+      "cityName": "潜江"
+    },
+    {
+      "cityCode": "ks",
+      "cityName": "喀什"
+    },
+    {
+      "cityCode": "hlbe",
+      "cityName": "呼伦贝尔"
+    },
+    {
+      "cityCode": "honghe",
+      "cityName": "红河"
+    },
+    {
+      "cityCode": "tm",
+      "cityName": "天门"
+    },
+    {
+      "cityCode": "klmy",
+      "cityName": "克拉玛依"
+    },
+    {
+      "cityCode": "smx",
+      "cityName": "三门峡"
+    },
+    {
+      "cityCode": "haidong",
+      "cityName": "海东"
+    },
+    {
+      "cityCode": "yuncheng",
+      "cityName": "运城"
+    },
+    {
+      "cityCode": "wuhai",
+      "cityName": "乌海"
+    },
+    {
+      "cityCode": "qinzhou",
+      "cityName": "钦州"
+    },
+    {
+      "cityCode": "cy",
+      "cityName": "朝阳"
+    },
+    {
+      "cityCode": "qn",
+      "cityName": "黔南"
+    },
+    {
+      "cityCode": "baise",
+      "cityName": "百色"
+    },
+    {
+      "cityCode": "jms",
+      "cityName": "佳木斯"
+    },
+    {
+      "cityCode": "xlgl",
+      "cityName": "锡林郭勒"
+    },
+    {
+      "cityCode": "diqing",
+      "cityName": "迪庆"
+    },
+    {
+      "cityCode": "rkz",
+      "cityName": "日喀则"
+    },
+    {
+      "cityCode": "alt",
+      "cityName": "阿勒泰"
+    },
+    {
+      "cityCode": "pj",
+      "cityName": "盘锦"
+    },
+    {
+      "cityCode": "chongzuo",
+      "cityName": "崇左"
+    },
+    {
+      "cityCode": "sl",
+      "cityName": "商洛"
+    },
+    {
+      "cityCode": "ll",
+      "cityName": "吕梁"
+    },
+    {
+      "cityCode": "zw",
+      "cityName": "中卫"
+    },
+    {
+      "cityCode": "yichun",
+      "cityName": "伊春"
+    },
+    {
+      "cityCode": "liaoyuan",
+      "cityName": "辽源"
+    },
+    {
+      "cityCode": "lb",
+      "cityName": "来宾"
+    },
+    {
+      "cityCode": "ab",
+      "cityName": "阿坝"
+    },
+    {
+      "cityCode": "fx",
+      "cityName": "阜新"
+    },
+    {
+      "cityCode": "wlcb",
+      "cityName": "乌兰察布"
+    },
+    {
+      "cityCode": "dh",
+      "cityName": "德宏"
+    },
+    {
+      "cityCode": "tieling",
+      "cityName": "铁岭"
+    },
+    {
+      "cityCode": "jyg",
+      "cityName": "嘉峪关"
+    },
+    {
+      "cityCode": "baishan",
+      "cityName": "白山"
+    },
+    {
+      "cityCode": "aks",
+      "cityName": "阿克苏"
+    },
+    {
+      "cityCode": "suihua",
+      "cityName": "绥化"
+    },
+    {
+      "cityCode": "tc",
+      "cityName": "铜川"
+    },
+    {
+      "cityCode": "bazhou",
+      "cityName": "巴州"
+    },
+    {
+      "cityCode": "zhangye",
+      "cityName": "张掖"
+    },
+    {
+      "cityCode": "bozhouxj",
+      "cityName": "博州"
+    },
+    {
+      "cityCode": "wuzhong",
+      "cityName": "吴忠"
+    },
+    {
+      "cityCode": "jixi",
+      "cityName": "鸡西"
+    },
+    {
+      "cityCode": "hnz",
+      "cityName": "海南州"
+    },
+    {
+      "cityCode": "tacheng",
+      "cityName": "塔城"
+    },
+    {
+      "cityCode": "lx",
+      "cityName": "临夏"
+    },
+    {
+      "cityCode": "yq",
+      "cityName": "阳泉"
+    },
+    {
+      "cityCode": "heihe",
+      "cityName": "黑河"
+    },
+    {
+      "cityCode": "als",
+      "cityName": "阿拉善"
+    },
+    {
+      "cityCode": "hm",
+      "cityName": "哈密"
+    },
+    {
+      "cityCode": "shuozhou",
+      "cityName": "朔州"
+    },
+    {
+      "cityCode": "kz",
+      "cityName": "克州"
+    },
+    {
+      "cityCode": "wjq",
+      "cityName": "五家渠"
+    },
+    {
+      "cityCode": "jinchang",
+      "cityName": "金昌"
+    },
+    {
+      "cityCode": "qth",
+      "cityName": "七台河"
+    },
+    {
+      "cityCode": "szs",
+      "cityName": "石嘴山"
+    },
+    {
+      "cityCode": "gn",
+      "cityName": "甘南"
+    },
+    {
+      "cityCode": "hx",
+      "cityName": "海西"
+    },
+    {
+      "cityCode": "sys",
+      "cityName": "双鸭山"
+    },
+    {
+      "cityCode": "hegang",
+      "cityName": "鹤岗"
+    },
+    {
+      "cityCode": "dxal",
+      "cityName": "大兴安岭"
+    },
+    {
+      "cityCode": "ht",
+      "cityName": "和田"
+    },
+    {
+      "cityCode": "tlf",
+      "cityName": "吐鲁番"
+    },
+    {
+      "cityCode": "ale",
+      "cityName": "阿拉尔"
+    }
+  ]
+}
