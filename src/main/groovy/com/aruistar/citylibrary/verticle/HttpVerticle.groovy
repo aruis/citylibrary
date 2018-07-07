@@ -8,6 +8,6 @@ class HttpVerticle extends AbstractVerticle {
 
     @Override
     void start() throws Exception {
-        log.info("HttpVerticle starting...")
+        log.info("verticle starting...")
     }
 }

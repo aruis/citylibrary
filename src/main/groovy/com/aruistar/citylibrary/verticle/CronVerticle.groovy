@@ -12,10 +12,9 @@ class CronVerticle extends AbstractVerticle {
 
     @Override
     void start(Future<Void> startFuture) throws Exception {
+        log.info("verticle starting...")
 
-        log.info(config().toString())
-
-        def cron_expression = config().getString("cron_expression")
+        def cron_expression = config().getString("cron", "0 48 9 ? * *")  //"0 48 9 ? * *" 每天上午9:48 just a example
 
         JsonObject event = new JsonObject()
                 .put("cron_expression", cron_expression)
@@ -25,7 +24,7 @@ class CronVerticle extends AbstractVerticle {
                 .put("timezone_name", "Asia/Shanghai")
 
 
-        vertx.deployVerticle(CronEventSchedulerVertical.class.getName(), { result ->
+        vertx.deployVerticle(CronEventSchedulerVertical.newInstance(), { result ->
             if (result.succeeded()) {
                 log.info("deploy CronEventSchedulerVertical OK")
 

@@ -4,14 +4,10 @@ import groovy.util.logging.Slf4j
 import io.vertx.core.AbstractVerticle
 
 @Slf4j
-class SpiderVerticle extends AbstractVerticle {
+class DatabaseVerticle extends AbstractVerticle {
 
     @Override
     void start() throws Exception {
         log.info("verticle starting...")
-
-        vertx.eventBus().consumer("scheduled.address", { handler ->
-            log.info("scheduled is call me.")
-        })
     }
 }
