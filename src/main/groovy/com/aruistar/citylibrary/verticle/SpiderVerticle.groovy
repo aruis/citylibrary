@@ -23,7 +23,7 @@ class SpiderVerticle extends AbstractVerticle {
         def jsonCity = new JsonObject(vertx.fileSystem().readFileBlocking("city.json"))
 
         vertx.eventBus().consumer(CRON_EVENTBUS_ADDRESS_CREPRICE, { handler ->
-            log.info("scheduled is call me.")
+            log.info("cron is call me.")
 
             def url = "http://www.creprice.cn/city/"
             // 获取creprice城市列表
