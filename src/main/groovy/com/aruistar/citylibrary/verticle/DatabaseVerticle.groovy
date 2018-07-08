@@ -17,13 +17,13 @@ class DatabaseVerticle extends AbstractVerticle {
         log.info("verticle starting...")
         pgClient = buildDBClient()
 
-        pgClient.query("select 1", { ar ->
-            if (ar.succeeded()) {
-                log.info(new Date().toString() + " : " + ar.result().size())
-            } else {
-                log.info("数据库访问异常：${ar.cause().getMessage()}")
-            }
-        })
+//        pgClient.query("select 1", { ar ->
+//            if (ar.succeeded()) {
+//                log.info(new Date().toString() + " : " + ar.result().size())
+//            } else {
+//                log.info("数据库访问异常：${ar.cause().getMessage()}")
+//            }
+//        })
     }
 
     PgClient buildDBClient() {

@@ -14,10 +14,14 @@ class MainVerticle extends AbstractVerticle {
 
     JsonObject config
 
+    static boolean isDebug
+
     @Override
     void start() throws Exception {
         config = config()
         log.info("config is :" + config.toString())
+
+        isDebug = config.getBoolean("debug", true)
 
         vertx.deployVerticle(CronVerticle.newInstance(), buildDeploymentOptions("cron"))
         vertx.deployVerticle(SpiderVerticle.newInstance())
