@@ -70,6 +70,7 @@ dependencies {
         exclude group: "org.codehaus.groovy", module: "groovy-all"
     }
 
+    compile 'io.reactiverse:reactive-pg-client:0.9.0'
     compile 'com.diabolicallabs:vertx-cron:3.5.0'
 
     compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'

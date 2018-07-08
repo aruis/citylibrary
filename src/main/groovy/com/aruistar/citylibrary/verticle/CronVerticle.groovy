@@ -27,7 +27,10 @@ class CronVerticle extends AbstractVerticle {
 
     JsonObject buildCronEvent(String address) {
 
-        def cron_expression = config().getString("cron", "0 30 15 ? * *")  //"0 48 9 ? * *" 每天上午9:48 just a example
+        def cronConfigName = address.substring(address.lastIndexOf('_'))
+
+        //"0 48 9 ? * *" 每天上午9:48 just a example
+        def cron_expression = config().getString("schedule" + cronConfigName)
 
         return new JsonObject()
                 .put("cron_expression", cron_expression)

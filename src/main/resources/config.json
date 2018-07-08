@@ -1,4 +1,16 @@
 {
-  "cron": "0 55 13 ? * MON-FRI"
+  "cron": {
+    "schedule_creprice": "0 30 15 ? * *"
+  },
+  "http": {
+    "port": 9090
+  },
+  "database": {
+    "dbHost": "127.0.0.1",
+    "dbPort": 5432,
+    "dbName": "citylibrary",
+    "dbUser": "postgres",
+    "dbPassword": ""
+  }
 }
 

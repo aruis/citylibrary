@@ -17,7 +17,7 @@ class SpiderVerticle extends AbstractVerticle {
         log.info("verticle starting...")
 
         vertx.eventBus().consumer(CRON_EVENTBUS_ADDRESS_CREPRICE, { handler ->
-            log.info("scheduled is call me.")
+            log.info("cron is call me.")
         })
     }
 }

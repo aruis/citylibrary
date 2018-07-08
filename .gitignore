@@ -2,3 +2,4 @@
 .gradle
 .idea
 log
+src/main/resources/config_secret.json
