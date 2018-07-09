@@ -35,6 +35,7 @@ class SpiderVerticle extends AbstractVerticle {
         })
     }
 
+    //TODO 可以优化下，考虑一次抓去不成功，可以每天多次抓取，尽可能保证数据足够。 另外，这个数据是 每日变动还是每月变动？
     def accessCreprice() {
         def jsonCity = new JsonObject(vertx.fileSystem().readFileBlocking("city.json"))
         def url = "http://www.creprice.cn/city/"
