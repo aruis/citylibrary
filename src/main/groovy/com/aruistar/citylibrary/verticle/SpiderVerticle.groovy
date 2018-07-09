@@ -3,6 +3,8 @@ package com.aruistar.citylibrary.verticle
 import com.aruistar.citylibrary.MainVerticle
 import groovy.util.logging.Slf4j
 import io.vertx.core.AbstractVerticle
+import io.vertx.core.eventbus.DeliveryOptions
+import io.vertx.core.eventbus.EventBus
 import io.vertx.core.json.JsonObject
 import io.vertx.ext.web.client.WebClient
 import io.vertx.ext.web.client.WebClientOptions
@@ -16,11 +18,14 @@ class SpiderVerticle extends AbstractVerticle {
     /*有几个定时爬虫，list就有几个eventbus地址*/
     final static List<String> CRON_EVENTBUS_ADDRESSES = [CRON_EVENTBUS_ADDRESS_CREPRICE]
 
+    EventBus eventBus
+
     @Override
     void start() throws Exception {
         log.info("verticle starting...")
+        eventBus = vertx.eventBus()
 
-        if(MainVerticle.isDebug){
+        if (MainVerticle.isDebug) {
             accessCreprice()
         }
 
@@ -82,6 +87,9 @@ class SpiderVerticle extends AbstractVerticle {
                         }
                         // todo save to database
                         println(cityPrice)
+
+                        eventBus.send(DatabaseVerticle.DATABASE_EVENTBUS_ADDRESS, new JsonObject(cityPrice), new DeliveryOptions().addHeader("action", "insert.daliy_creprice"))
+
                     } else {
                         println(it.cause().message)
                     }
