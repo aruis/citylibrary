@@ -8,7 +8,8 @@ class AruisLauncher extends Launcher {
 
 
     static {
-        System.getProperties().setProperty("vertx.disableDnsResolver", "true")
+        System.setProperty("vertx.disableDnsResolver", "true")
+        System.setProperty("vertx.disableFileCaching", "true")
         SLF4JBridgeHandler.removeHandlersForRootLogger()
         SLF4JBridgeHandler.install()
     }
