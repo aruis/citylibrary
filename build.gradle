@@ -1,7 +1,7 @@
 buildscript {
     ext {
-        vertx_version = '3.5.2'
-        groovy_version = '2.5.0'
+        vertx_version = '3.5.3'
+        groovy_version = '2.5.1'
     }
 
 }

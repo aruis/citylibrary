@@ -1,7 +1,7 @@
 {
-  "debug": true,
+  "debug": false,
   "cron": {
-    "schedule_creprice": "0 30 15 ? * *"
+    "schedule_creprice": "0 45 07 ? * *"
   },
   "http": {
     "port": 9090

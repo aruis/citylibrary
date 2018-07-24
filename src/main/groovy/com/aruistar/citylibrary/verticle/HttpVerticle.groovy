@@ -14,6 +14,7 @@ class HttpVerticle extends AbstractVerticle {
 
         def server = vertx.createHttpServer()
 
+        def port = config().getInteger("port", 8888)
         def router = Router.router(vertx)
 
         router.route().handler(StaticHandler.create().setCachingEnabled(false))
@@ -28,7 +29,16 @@ class HttpVerticle extends AbstractVerticle {
 //            response.end("Hello World from Vert.x-Web!")
 //        })
 
-        server.requestHandler(router.&accept).listen(8888)
+
+        server.requestHandler(router.&accept)
+                .listen(port, { ar ->
+            if (ar.succeeded()) {
+                log.info("server is running on port " + port)
+            } else {
+                log.error("Could not start a HTTP server", ar.cause())
+            }
+
+        })
 
     }
 }
